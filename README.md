@@ -1,6 +1,6 @@
 # nuxt-multiline-style
 
-##
+## Reproductoin Instructions
 Index page contains 3 nested divs with the same multiline style attribute.
 
 On ssr load, inspect the nested divs and notice how only the parent div's style has been parsed correctly, while the nested children's style is broken by the \n charecter.
